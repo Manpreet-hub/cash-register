@@ -1,0 +1,72 @@
+
+body{
+    background-color: #D5EEBB;
+    height: 100%;
+    margin: auto;
+    width: 40%;
+    padding: 5rem;
+    text-align: center;
+}
+.container {
+    background-color: #7FC8A9;
+    width: 100%;
+    border-radius: 2rem ;
+    padding: 1rem;
+    margin-top: 2.5rem;
+}
+
+.cash-input{
+    display: none;
+}
+
+p,.label-section,.description {
+    color:rgb(0, 35, 50);
+}
+.description{
+    font-size: 1rem;
+    font-weight: 2rem;
+}
+h1{
+    font-size: 3rem;
+    color:rgb(0, 35, 50);
+}
+
+.container input{
+    height: 0rem;
+    font-size: 1.2rem;
+    padding: 1.2rem;
+    border-radius:10px;
+    box-shadow:  3px 3px 3px #353535;
+}
+
+.container button{
+    font-weight: bold;
+    color: rgb(0, 35, 50);
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 35, 50);
+    cursor: pointer;
+}
+.return-header{
+    margin-top: 3rem;
+    color:rgb(0, 35, 50);
+}
+table{
+    width: 100%;
+    margin-top: 3rem;
+    padding: 1rem;
+    border-radius: 10px;
+    table-layout: fixed;
+    box-shadow: 5px 5px 10px 5px #353535;
+}
+
+.return-change{
+    display:none;
+    margin-top: 1rem    ;
+}
+.no-Of-Notes{
+    background-color: white;
+    font-weight: bold;
+}
